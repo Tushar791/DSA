@@ -5,6 +5,8 @@ You must do it in place.
 Input: matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
 Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
 
+time complexity - 2*O(n*m)
+
 """
 
 def set_matrix_zero(matrix):
@@ -40,7 +42,6 @@ def set_matrix_zero(matrix):
 
 if __name__ == "__main__":
 
-    matrix = [[0,1]]
-
+    matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
     set_matrix_zero(matrix)
     print(matrix)

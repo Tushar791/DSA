@@ -5,6 +5,8 @@ You must do it in place.
 Input: matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
 Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
 
+time complexity -  O((n*m)(n+m))+O(n*m)
+
 """
 def mark_columns(matrix, col):
 
@@ -19,9 +21,7 @@ def mark_rows(matrix,row):
 
 
 def set_matrix_to_zero(matrix):
-
-
-
+    
     #capture the length of rows and columns in m and n
     m = len(matrix) # count columns
     n = len(matrix[0]) # count rows
@@ -31,7 +31,7 @@ def set_matrix_to_zero(matrix):
             if matrix[i][j] == 0:
                 mark_columns(matrix,j)
                 mark_rows(matrix,i)
-                print(matrix)
+                #print(matrix)
                 
 
     for i in range(m):
