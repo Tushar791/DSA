@@ -10,7 +10,11 @@ Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
 Example 2:
 
 Input: numRows = 1
-Output: [[1]] """
+Output: [[1]]
+
+Time complexity - O(n**2)
+
+"""
 
 def value_of_nth_row(row):
     ans,lst = 1,[1]

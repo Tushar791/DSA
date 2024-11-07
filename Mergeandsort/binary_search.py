@@ -1,3 +1,9 @@
+"""Binary search
+
+Time complexity - O(Log N)
+
+"""
+
 def binary_search( arr ,  target):
     start, end = 0, len(arr)-1
     while start <= end:

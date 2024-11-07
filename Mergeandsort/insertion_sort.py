@@ -1,4 +1,8 @@
+"""
+Insertion sort
 
+Time complexity - O(N**2)
+"""
 def insertion_sort(arr):
 
     for i in range(1, len(arr)):

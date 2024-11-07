@@ -1,3 +1,9 @@
+"""_
+Merge Sort
+
+Time Complexity = O(N logN)
+"""
+
 def merge_sort(arr):
     if len(arr) > 1:
         
